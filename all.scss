@@ -1,0 +1,74 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+body{
+    line-height: 1.5;
+    font-family: "Castoro", serif;
+}
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.cover{
+    &__title{
+        font-size: 128px;
+        letter-spacing: 12%;
+        padding: 160px 0 0 16%;
+        &--right{
+            text-align: right;
+            padding: 0 17% 0 0 ;
+        }
+    }
+    &__img{
+        width: 636px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+.introduction{
+    padding: 48px 16%;
+    background: #efefef;
+    display: flex;
+    justify-content: flex-end;
+    &__text{
+        width: 50%;
+        font-size: 32px;
+    }
+}
+.info{
+    width: 50%;
+    padding: 80px 0 80px 16%;
+    margin-bottom: 80px;
+    &__title{
+        color: #AE0000;
+        font-size: 40px;
+        border-bottom: 3px solid #AE0000;
+        margin-bottom: 8px;
+    }
+    &__list{
+        li{
+            margin-bottom: 8px;
+            font-size: 24px;
+        }
+        &--mb{
+            li{
+                margin-bottom: 12px;
+            }
+        }
+    }
+    &__year{
+        font-size: 20px;
+        font-style: italic;
+        color: #949494;
+        margin-top: 8px;
+    }
+}
+.footer{
+    text-align: center;
+    background: #000;
+    &__link{
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        margin: 64px 20px;
+    }
+}
